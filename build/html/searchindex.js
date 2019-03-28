@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["help","index","license"],envversion:53,filenames:["help.rst","index.rst","license.rst"],objects:{},objnames:{},objtypes:{},terms:{hello:[0,1,2],help:1,index:1,modul:1,page:1,print:1,search:1,world:2},titles:["Help","IZI RestfulAPI","License"],titleterms:{document:[],guid:1,help:0,indic:1,izi:1,iziphpdoc:[],licens:2,restfulapi:1,tabl:1,welcom:[]}})

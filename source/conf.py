@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # iziphpdocs documentation build configuration file, created by
-# sphinx-quickstart on Thu Mar 28 15:16:25 2019.
+# sphinx-quickstart on Thu Mar 28 15:24:22 2019.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -31,10 +31,10 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = ['sphinx.ext.autodoc']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['ntemplates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -47,8 +47,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'iziphpdocs'
-copyright = '2019, Dmitry'
-author = 'Dmitry'
+copyright = '2019, 2age'
+author = '2age'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -64,12 +64,12 @@ release = '1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'ru'
+language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -94,7 +94,7 @@ html_theme = 'alabaster'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['nstatic']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
@@ -140,7 +140,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'iziphpdocs.tex', 'iziphpdocs Documentation',
-     'Dmitry', 'manual'),
+     '2age', 'manual'),
 ]
 
 
